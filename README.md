@@ -12,7 +12,7 @@ This project will also act as first exposure for the mentees to the world of Mac
 ## Tentative timeline - 5-6 weeks
 
 - Week 1 - Basics of Python, Python libraries like Numpy, Pandas and Matplotlib.
-- Week 2 - Basics of  Machine Learning - Implementation of Regression Models, Data Preprocessing and Visualisation, Word Vectorisation Basics. 
+- Week 2 - Basics of  Machine Learning - Implementation of Regression Models, Data Preprocessing and Visualisation, Word Vectorisation. 
 - Week 3 - Basics of Machine Learning - Naive Bayes Models, Recurrent Neural Networks and LSTM Models.
 - Week 4 - Training different Models to analyse Sentiment of the dataset.
 - Week 5 - Analysing Results and comparing different models, Understanding errors and fine-tuning to get better results.
