@@ -40,7 +40,7 @@ You can utilise Google and other online resources to learn more about Pandas lib
 
 You can utilise Google and other online resources to learn more about Matplotlib library : [Matplotlib Resources](https://www.geeksforgeeks.org/matplotlib-tutorial/) | [Documentation](https://matplotlib.org/stable/users/index.html)
 
-[An Introduction Colab to Matplotlib]() : Go through this to get an idea about Matplotlib Library.
+[An Introduction Colab to Matplotlib](https://colab.research.google.com/drive/1Isdg-OpmUXHRTx_9upEee1E-W1AEvZ7G?usp=sharing) : Go through this to get an idea about Matplotlib Library.
 
 [Assignment on Matplotlib]() : Not for Submission but for practice. 
 
