@@ -21,26 +21,27 @@ This week has the following content:
 You can utilise Google and other online resources to learn Python language. Some Good Sources: [W3Schools](https://www.w3schools.com/python/) | [Tutorialspoint](https://www.tutorialspoint.com/python/index.htm)
 
 ### Numpy
-1. Array :
-2. Array Indexing :
-3. Maths on Array :
-4. Array Operations :
-5. Random :
 
-You can utilise Google and other online resources to learn more about Numpy library, like [Numpy_Resource](https://www.w3schools.com/python/numpy/default.asp) | [Documentation](https://numpy.org/doc/1.26/user/basics.html)
+You can utilise Google and other online resources to learn more about Numpy library : [Numpy Resources](https://www.geeksforgeeks.org/numpy-tutorial/?ref=lbp) | [Documentation](https://numpy.org/doc/1.26/user/basics.html)
+
+[An Introduction Colab to Numpy](https://colab.research.google.com/drive/1uF0va6-XH0Td4znq3GJdTfLXJXtSFMKJ?usp=sharing) : Go through this to get an idea about Numpy Library.
+[Assignment on Numpy]() : Not for Submission but for practice. 
 
 ### Pandas
-1. Series :
-2. Dataframes :
-3. Importing Data :
-4. Dataframe Operations :
 
-You can utilise Google and other online resources to learn more about Pandas library, like [Pandas_Resource](https://www.w3schools.com/python/pandas/default.asp) | [Documentation](https://pandas.pydata.org/docs/user_guide/index.html)
+You can utilise Google and other online resources to learn more about Pandas library : [Pandas Resources](https://www.geeksforgeeks.org/pandas-tutorial/) | [Documentation](https://pandas.pydata.org/docs/user_guide/index.html)
+
+[An Introduction Colab to Pandas](https://colab.research.google.com/drive/1b1R5430Rb2OY04qymCdnUENn_BhuTvZh?usp=sharing) : Go through this to get an idea about Pandas Library.
+[Assignment on Pandas]() : Not for Submission but for practice. 
 
 ### Matplotlib
 
+You can utilise Google and other online resources to learn more about Matplotlib library : [Matplotlib Resources](https://www.geeksforgeeks.org/matplotlib-tutorial/) | [Documentation](https://matplotlib.org/stable/users/index.html)
 
-You can utilise Google and other online resources to learn more about Matplotlib library, like [Matplotlib_Resource](https://www.w3schools.com/python/matplotlib_intro.asp) | [Documentation](https://matplotlib.org/stable/users/index.html)
+[An Introduction Colab to Matplotlib]() : Go through this to get an idea about Matplotlib Library.
+[Assignment on Matplotlib]() : Not for Submission but for practice. 
 
+### Note
+Avoid using AI Tools and Google more to get your way around. Try utilising websites like [Stack Overflow](https://stackoverflow.com/) instead.
 
 
