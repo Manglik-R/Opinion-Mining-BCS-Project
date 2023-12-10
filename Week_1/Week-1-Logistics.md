@@ -25,6 +25,7 @@ You can utilise Google and other online resources to learn Python language. Some
 You can utilise Google and other online resources to learn more about Numpy library : [Numpy Resources](https://www.geeksforgeeks.org/numpy-tutorial/?ref=lbp) | [Documentation](https://numpy.org/doc/1.26/user/basics.html)
 
 [An Introduction Colab to Numpy](https://colab.research.google.com/drive/1uF0va6-XH0Td4znq3GJdTfLXJXtSFMKJ?usp=sharing) : Go through this to get an idea about Numpy Library.
+
 [Assignment on Numpy]() : Not for Submission but for practice. 
 
 ### Pandas
@@ -32,6 +33,7 @@ You can utilise Google and other online resources to learn more about Numpy libr
 You can utilise Google and other online resources to learn more about Pandas library : [Pandas Resources](https://www.geeksforgeeks.org/pandas-tutorial/) | [Documentation](https://pandas.pydata.org/docs/user_guide/index.html)
 
 [An Introduction Colab to Pandas](https://colab.research.google.com/drive/1b1R5430Rb2OY04qymCdnUENn_BhuTvZh?usp=sharing) : Go through this to get an idea about Pandas Library.
+
 [Assignment on Pandas]() : Not for Submission but for practice. 
 
 ### Matplotlib
@@ -39,6 +41,7 @@ You can utilise Google and other online resources to learn more about Pandas lib
 You can utilise Google and other online resources to learn more about Matplotlib library : [Matplotlib Resources](https://www.geeksforgeeks.org/matplotlib-tutorial/) | [Documentation](https://matplotlib.org/stable/users/index.html)
 
 [An Introduction Colab to Matplotlib]() : Go through this to get an idea about Matplotlib Library.
+
 [Assignment on Matplotlib]() : Not for Submission but for practice. 
 
 ### Note
