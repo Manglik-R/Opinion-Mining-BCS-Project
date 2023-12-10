@@ -6,7 +6,7 @@
 1. [Raghav Manglik](https://www.linkedin.com/in/raghav-manglik-331326272/)
 2. [Srishti Chandra](https://www.linkedin.com/in/srishti-chandra-a79a3227a/)
 
-- The Aim of this project is to create a **Sentimental Analysis Model** using Logistic Regression, Naive Bayes, Neural Networks and Word Vectors.
+- The Aim of this project is to create a **Sentimental Analysis Model** using Logistic Regression, Naive Bayes, Neural Networks and LSTMs.
 This project will also act as first exposure for the mentees to the world of Machine Learning.
 
 ## Tentative timeline - 5-6 weeks
