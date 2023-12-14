@@ -53,8 +53,7 @@ Data preprocessing is an essential step in building a Machine Learning model and
 1. Text Cleaning
 2. Stop words removal
 3. Tokenization
-4. Stemming
-5. Lemmatization
+4. Stemming & Lemmatization
 
 We need to use the required steps based on our dataset. Go throught this [Colab]() to see results for each of these steps. 
 
