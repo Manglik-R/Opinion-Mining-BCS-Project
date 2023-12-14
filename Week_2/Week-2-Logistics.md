@@ -81,8 +81,8 @@ It is important to remove all numerical digits from the text dataset. This is be
 ### Tokenization
 Tokenization is the process of breaking down large blocks of text such as paragraphs and sentences into smaller, more manageable units called tokens which can more easily assigned meaning. Tokens can be either words, characters, or subwords. Hence, tokenization can be broadly classified into 3 types – word, character, and subword (n-gram characters) tokenization. By performing word tokenization, we can obtain a more accurate representation of the underlying patterns and trends present in the text data. In above colab we performed Word Tokenisation.
 
-###
-
+### Stopword Removal
+Stopwords refer to the most commonly occurring words in any natural language. For the purpose of analyzing text data and building NLP models, these stopwords might not add much value to the meaning of the document. Therefore, removing stopwords can help us to focus on the most important information in the text and improve the accuracy of our analysis. One of the advantages of removing stopwords is that it can reduce the size of the dataset, which in turn reduces the training time required for natural language processing models. We used the NLTK library to remove stopwords from our dataset.
 
 ## Linear and Logistic Regression
 
