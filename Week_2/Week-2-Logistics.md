@@ -46,8 +46,45 @@ Machine learning implementations are classified into three major categories:
 ## Content
 This week has the following content: 
 
-### Data Preprocessing & Visualisation and Word Vectorisation
-### Linear and Logistic Regression
+## Data Preprocessing & Visualisation 
+
+Data preprocessing is an essential step in building a Machine Learning model and depending on how well the data has been preprocessed, the results are seen. In NLP (Natural Language Processing), text preprocessing is the first step in the process of building a model. The various text preprocessing steps are :
+
+1. Text Cleaning
+2. Stop words removal
+3. Tokenization
+4. Stemming
+5. Lemmatization
+
+We need to use the required steps based on our dataset. Go throught this [Colab]() to see results for each of these steps. 
+
+### Text Cleaning
+In this step, we will perform fundamental actions to clean the text. These actions involve transforming all the text to lowercase, eliminating characters that do not qualify as words or whitespace, as well as removing any numerical digits present.
+
+1. **Converting to lowercase**
+
+Python is a case sensitive programming language. Therefore, to avoid any issues and ensure consistency in the processing of the text, we convert all the text to lowercase.
+This way, “LOVE” and “love” will be treated as the same word, and our data analysis will be more accurate and reliable. 
+
+2. **Removing URLs**
+
+When building a model, URLs are usually not relevant and can be removed from the text data.
+
+3. **Removing remove non-word and non-whitespace characters**
+
+It is essential to remove any characters that are not considered as words or whitespace from the text dataset. These non-word and non-whitespace characters can include punctuation marks, symbols, and other special characters that do not provide any meaningful information for our analysis.
+
+4. **Removing digits**
+
+It is important to remove all numerical digits from the text dataset. This is because, in most cases, numerical values do not provide any significant meaning to the text analysis process. Moreover, they can interfere with natural language processing algorithms, which are designed to understand and process text-based information.
+
+### Tokenization
+Tokenization is the process of breaking down large blocks of text such as paragraphs and sentences into smaller, more manageable units called tokens which can more easily assigned meaning. Tokens can be either words, characters, or subwords. Hence, tokenization can be broadly classified into 3 types – word, character, and subword (n-gram characters) tokenization. By performing word tokenization, we can obtain a more accurate representation of the underlying patterns and trends present in the text data. In above colab we performed Word Tokenisation.
+
+###
+
+
+## Linear and Logistic Regression
 
 
 
