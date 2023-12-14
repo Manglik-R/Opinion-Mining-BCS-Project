@@ -85,9 +85,11 @@ Tokenization is the process of breaking down large blocks of text such as paragr
 Stopwords refer to the most commonly occurring words in any natural language. For the purpose of analyzing text data and building NLP models, these stopwords might not add much value to the meaning of the document. Therefore, removing stopwords can help us to focus on the most important information in the text and improve the accuracy of our analysis. One of the advantages of removing stopwords is that it can reduce the size of the dataset, which in turn reduces the training time required for natural language processing models. We used the NLTK library to remove stopwords from our dataset.
 
 ### Stemming & Lemmatization
-Stemming is a simple and practical approach that involves cutting off the ends of words with the intention of obtaining correct root form. Eg. automate, automatic, automation gives automat 
+Stemming is transforming any word to its most general form or base stem, which can be defined as a set of characters that are used to construct the word and its derivatives. Eg. automate, automatic, automation gives automat. However, in some cases, stemming process produces words that are not correct spellings of the root word. For e.g., we can look at the set of words that comprises the different forms of happy: happy, happiness and happier. We can see that the prefix happi the most common stem throughout the entire set of related words. Note that we cannot choose happ because it is the stem of unrelated words like happen. [Porter Stemming Algorithm](https://tartarus.org/martin/PorterStemmer/) is a common algorithm for carrying out stemming in popular NLP libraries like NLTK.
 
-While Lemmatization aims to remove inflectional endings only and to return base or dictionary form of a word, which is known as lemma. Eg. are, is, am gives be.
+While Lemmatization aims to remove inflectional endings only and to return base or dictionary form of a word, which is known as lemma. Eg. are, is, am gives be. 
+
+Note that, we only use either Stemming or Lemmatization on our dataset based on the requirement.
 
 ## Logistic Regression
 
