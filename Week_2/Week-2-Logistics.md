@@ -55,7 +55,7 @@ Data preprocessing is an essential step in building a Machine Learning model and
 3. Tokenization
 4. Stemming & Lemmatization
 
-Go throught this [Colab](). 
+Go through this [Colab](https://colab.research.google.com/drive/1fjZed668JZQ3q8q_27wZ0Dtp159g2TDY?usp=sharing). 
 
 ### Text Cleaning
 In this step, we will perform fundamental actions to clean the text. These actions involve transforming all the text to lowercase, eliminating characters that do not qualify as words or whitespace, as well as removing any numerical digits present.
@@ -63,30 +63,102 @@ In this step, we will perform fundamental actions to clean the text. These actio
 1. **Converting to lowercase**
 
 Python is a case sensitive programming language. Therefore, to avoid any issues and ensure consistency in the processing of the text, we convert all the text to lowercase.
-This way, “LOVE” and “love” will be treated as the same word, and our data analysis will be more accurate and reliable. 
+This way, “LOVE” and “love” will be treated as the same word, and our data analysis will be more accurate and reliable.
+
+```python
+for columns in dataset.columns:
+    dataset[columns] = dataset[columns].str.lower()
+```
 
 2. **Removing URLs**
 
 When building a model, URLs are usually not relevant and can be removed from the text data.
 
+```python
+import pandas as pd
+import re
+
+# Define a regex pattern to match URLs
+url_pattern = re.compile(r'https?://\S+')
+
+# Define a function to remove URLs from text
+def remove_urls(text):
+    return url_pattern.sub('', text)
+
+# Apply the function to the 'text' column and create a new column 'clean_text'
+df['Message'] = df['Message'].apply(remove_urls)
+```
+
 3. **Removing remove non-word and non-whitespace characters**
 
 It is essential to remove any characters that are not considered as words or whitespace from the text dataset. These non-word and non-whitespace characters can include punctuation marks, symbols, and other special characters that do not provide any meaningful information for our analysis.
+
+```python
+df = df.replace(to_replace=r'[^\w\s]', value='', regex=True)
+```
 
 4. **Removing digits**
 
 It is important to remove all numerical digits from the text dataset. This is because, in most cases, numerical values do not provide any significant meaning to the text analysis process. Moreover, they can interfere with natural language processing algorithms, which are designed to understand and process text-based information.
 
+```python
+df = df.replace(to_replace=r'\d', value='', regex=True)
+```
+
 ### Tokenization
 Tokenization is the process of breaking down large blocks of text such as paragraphs and sentences into smaller, more manageable units called tokens which can more easily assigned meaning. Tokens can be either words, characters, or subwords. Hence, tokenization can be broadly classified into 3 types – word, character, and subword (n-gram characters) tokenization. By performing word tokenization, we can obtain a more accurate representation of the underlying patterns and trends present in the text data. In above colab we performed Word Tokenisation.
 
+```python
+import nltk
+from nltk.tokenize import word_tokenize
+
+df['Message'] = df['Message'].apply(word_tokenize)
+```
+
 ### Stopword Removal
 Stopwords refer to the most commonly occurring words in any natural language. For the purpose of analyzing text data and building NLP models, these stopwords might not add much value to the meaning of the document. Therefore, removing stopwords can help us to focus on the most important information in the text and improve the accuracy of our analysis. One of the advantages of removing stopwords is that it can reduce the size of the dataset, which in turn reduces the training time required for natural language processing models. We used the NLTK library to remove stopwords from our dataset.
+
+```python
+import nltk
+from nltk.corpus import stopwords
+
+stop_words = set(stopwords.words('english'))
+df['Message'] = df['Message'].apply(lambda x: [word for word in x if word not in stop_words])
+```
 
 ### Stemming & Lemmatization
 Stemming is transforming any word to its most general form or base stem, which can be defined as a set of characters that are used to construct the word and its derivatives. Eg. automate, automatic, automation gives automat. However, in some cases, stemming process produces words that are not correct spellings of the root word. For e.g., we can look at the set of words that comprises the different forms of happy: happy, happiness and happier. We can see that the prefix happi the most common stem throughout the entire set of related words. Note that we cannot choose happ because it is the stem of unrelated words like happen. [Porter Stemming Algorithm](https://tartarus.org/martin/PorterStemmer/) is a common algorithm for carrying out stemming in popular NLP libraries like NLTK.
 
 While Lemmatization aims to remove inflectional endings only and to return base or dictionary form of a word, which is known as lemma. Eg. are, is, am gives be. 
+
+```python
+import nltk
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+import pandas as pd
+
+# Initialize the Porter Stemmer
+stemmer = PorterStemmer()
+
+# Define a function to perform stemming on the 'text' column
+def stem_words(words):
+    return [stemmer.stem(word) for word in words]
+
+# Apply the function to the 'text' column and create a new column 'stemmed_text'
+df['stemmed_messages'] = df['Message'].apply(stem_words)
+```
+
+```python
+import nltk
+nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+def lemmatize_words(text):
+  words = text.split()
+  return [lemmatizer.lemmatize(word) for word in words]
+  
+df['text'] = df['text'].apply(lemmatize_words)
+```
 
 Note that, we only use either Stemming or Lemmatization on our dataset based on the requirement.
 
