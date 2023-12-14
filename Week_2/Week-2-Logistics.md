@@ -162,7 +162,11 @@ df['text'] = df['text'].apply(lemmatize_words)
 
 Note that, we only use either Stemming or Lemmatization on our dataset based on the requirement.
 
+
+This concludes our discussion on Data Preprocessing. You can utilise online resources to know more about it.
+
 ## Logistic Regression
+
 
 
 
