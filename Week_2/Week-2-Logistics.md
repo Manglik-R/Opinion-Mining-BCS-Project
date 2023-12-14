@@ -46,8 +46,8 @@ Machine learning implementations are classified into three major categories:
 ## Content
 This week has the following content: 
 
-## Data Preprocessing & Visualisation and Word Vectorisation
-## Linear and Logistic Regression
+### Data Preprocessing & Visualisation and Word Vectorisation
+### Linear and Logistic Regression
 
 
 
