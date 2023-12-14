@@ -55,7 +55,7 @@ Data preprocessing is an essential step in building a Machine Learning model and
 3. Tokenization
 4. Stemming & Lemmatization
 
-We need to use the required steps based on our dataset. Go throught this [Colab]() to see results for each of these steps. 
+Go throught this [Colab](). 
 
 ### Text Cleaning
 In this step, we will perform fundamental actions to clean the text. These actions involve transforming all the text to lowercase, eliminating characters that do not qualify as words or whitespace, as well as removing any numerical digits present.
