@@ -169,7 +169,7 @@ This concludes our discussion on Data Preprocessing. You can utilise online reso
 
 Following are the notebooks to help you understand Logistic Regression
 
-[Classification](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)  
+[Classification](https://colab.research.google.com/drive/1B4j-GVCBbuCfWjD9Okgv4qkkRwlBUv9c?usp=sharing)
 
 [Logistic Regression](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)
 
