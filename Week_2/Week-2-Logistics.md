@@ -197,7 +197,9 @@ Following are the notebooks to help you understand Logistic Regression
 [Regularization](https://colab.research.google.com/drive/1b4HG1mXJ1mRdl3Rh3IpMvEBG6Tk-wJph?usp=sharing)
 
 Below are the links to extra resources:
+
 *[Playlist](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0&feature=shared)
+
 *[Tutorial](https://www.geeksforgeeks.org/understanding-logistic-regression/)
 
 
