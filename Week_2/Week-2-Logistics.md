@@ -185,7 +185,7 @@ Following are the notebooks to help you understand Logistic Regression
 
 [Overfitting](https://colab.research.google.com/drive/1RX7qLttibQFwRTWuup2xzNCs4oK9r4Xc?usp=sharing)
 
-[Regukarization](https://colab.research.google.com/drive/1b4HG1mXJ1mRdl3Rh3IpMvEBG6Tk-wJph?usp=sharing)
+[Regularization](https://colab.research.google.com/drive/1b4HG1mXJ1mRdl3Rh3IpMvEBG6Tk-wJph?usp=sharing)
 
 
 
