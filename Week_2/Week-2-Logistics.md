@@ -160,32 +160,45 @@ def lemmatize_words(text):
 df['text'] = df['text'].apply(lemmatize_words)
 ```
 
-Note that, we only use either Stemming or Lemmatization on our dataset based on the requirement.
+Note that, we only use Stemming or Lemmatization on our dataset based on the requirement.
 
 
-This concludes our discussion on Data Preprocessing. You can utilise online resources to know more about it.
+This concludes our discussion on Data Preprocessing. You can utilize online resources to know more about it.
 
 ## Logistic Regression
 
 Following are the notebooks to help you understand Logistic Regression
 
-[Classification](https://colab.research.google.com/drive/1B4j-GVCBbuCfWjD9Okgv4qkkRwlBUv9c?usp=sharing)
+1) In this notebook we compare classification and regression, which gives us a better understanding of these concepts.
+   [Classification](https://colab.research.google.com/drive/1B4j-GVCBbuCfWjD9Okgv4qkkRwlBUv9c?usp=sharing)
 
-[Logistic Regression](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)
+2) In this notebook we are introduced to the vital and basic sigmoid function along with its usage.
+   [Logistic Regression](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)
 
-[Decision Boundary](https://colab.research.google.com/drive/1ECROORIqEzZCGECNDtu6CX6zhdCLzxvD?usp=sharing)
+3)  The fundamental application of logistic regression is determining a decision boundary for a binary classification problem, so this notebook introduces you to decision boundaries.
+ [Decision Boundary](https://colab.research.google.com/drive/1ECROORIqEzZCGECNDtu6CX6zhdCLzxvD?usp=sharing)
 
+4) Dealing with errors is just as important as building a model in ML, so get introduced to losses, which deals with errors.
 [Logistic Loss](https://colab.research.google.com/drive/1Bgv1foteNHlTqbRiR21h2C4VpLOL0EMb?usp=sharing)
 
+5) Let's get introduced to cost function reduction which brings us closer to an ideal model.   
 [Cost Function](https://colab.research.google.com/drive/1NETyEYJU93iUvd9qFbzqbhUZrZkNkR5d?usp=sharing)
 
-[Gradient Descent](https://colab.research.google.com/drive/1BcBuEHXtkzpe4J7wvLiax-CMguHGltDF?usp=sharing)
+6) Let's get introduced to the most popular algorithm to reduce cost function, through this notebook.
+   [Gradient Descent](https://colab.research.google.com/drive/1BcBuEHXtkzpe4J7wvLiax-CMguHGltDF?usp=sharing)
 
-[Scikit Learn](https://colab.research.google.com/drive/1VbK-iuGQ9fawMb1Xmyh_i2b28LmkaU_e?usp=sharing)
+7) Scikit provides a wide range of tools for tasks such as classification, regression, etc, let's get introduced to this library. 
+   [Scikit Learn](https://colab.research.google.com/drive/1VbK-iuGQ9fawMb1Xmyh_i2b28LmkaU_e?usp=sharing)
 
-[Overfitting](https://colab.research.google.com/drive/1RX7qLttibQFwRTWuup2xzNCs4oK9r4Xc?usp=sharing)
+8) A common ML problem that makes the model learn the training data too well and perform horribly on the test set, let's get introduced to overfitting.
+   [Overfitting](https://colab.research.google.com/drive/1RX7qLttibQFwRTWuup2xzNCs4oK9r4Xc?usp=sharing)
 
+9) To deal with overfitting we use techniques such as regularization.
 [Regularization](https://colab.research.google.com/drive/1b4HG1mXJ1mRdl3Rh3IpMvEBG6Tk-wJph?usp=sharing)
+
+Below are the links to extra resources:
+*[Playlist](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0&feature=shared)
+*[Tutorial](https://www.geeksforgeeks.org/understanding-logistic-regression/)
 
 
 
