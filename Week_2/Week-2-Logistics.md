@@ -169,15 +169,24 @@ This concludes our discussion on Data Preprocessing. You can utilise online reso
 
 Following are the notebooks to help you understand Logistic Regression
 
-[Classification](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)
+[Classification](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)  
+
 [Logistic Regression](https://colab.research.google.com/drive/1ZsDR0aqprwe_g6rLU_XY1zRI6e0u1i10?usp=sharing)
+
 [Decision Boundary](https://colab.research.google.com/drive/1ECROORIqEzZCGECNDtu6CX6zhdCLzxvD?usp=sharing)
+
 [Logistic Loss](https://colab.research.google.com/drive/1Bgv1foteNHlTqbRiR21h2C4VpLOL0EMb?usp=sharing)
+
 [Cost Function](https://colab.research.google.com/drive/1NETyEYJU93iUvd9qFbzqbhUZrZkNkR5d?usp=sharing)
+
 [Gradient Descent](https://colab.research.google.com/drive/1BcBuEHXtkzpe4J7wvLiax-CMguHGltDF?usp=sharing)
+
 [Scikit Learn](https://colab.research.google.com/drive/1VbK-iuGQ9fawMb1Xmyh_i2b28LmkaU_e?usp=sharing)
+
 [Overfitting](https://colab.research.google.com/drive/1RX7qLttibQFwRTWuup2xzNCs4oK9r4Xc?usp=sharing)
+
 [Regukarization](https://colab.research.google.com/drive/1b4HG1mXJ1mRdl3Rh3IpMvEBG6Tk-wJph?usp=sharing)
+
 
 
 
