@@ -13,7 +13,7 @@ This project will also act as first exposure for the mentees to the world of Mac
 
 - Week 1 - Basics of Python, Python libraries like Numpy, Pandas and Matplotlib.
 - Week 2 - Basics of  Machine Learning - Implementation of Regression Models and Data Preprocessing & Visualisation. 
-- Week 3 - Basics of Machine Learning - Naive Bayes Models and Recurrent Neural Networks.
+- Week 3 - Basics of Machine Learning - Naive Bayes Models Classifier.
 - Week 4 - Training different Models to analyse Sentiment of the dataset.
 - Week 5 - Analysing Results and comparing different models, Understanding errors and fine-tuning to get better results.
 - Week 6 - (Tentative) Applying learnt skills to accomplish tasks like completing analogies and translating words.
